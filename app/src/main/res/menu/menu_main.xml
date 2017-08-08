@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+   <item
+        android:id="@+id/Favorites"
+        android:orderInCategory="3"
+       android:title="@string/favorites"
+        />
+
+
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="4"
+        android:title="@string/help">
+
+    </item>
+
+    <item
+        android:id="@+id/app"
+        android:orderInCategory="5"
+        android:title="@string/app">
+
+    </item>
+    <item
+        android:id="@+id/out"
+        android:orderInCategory="5"
+        android:title="@string/out"/>
+
+
+</menu>

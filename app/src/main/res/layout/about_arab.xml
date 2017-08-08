@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar" android:id="@+id/toolBar"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="856dp"
+                android:background="@android:color/white"
+                android:orientation="vertical" >
+
+                <TableRow
+                    android:id="@+id/TableRow03"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25" >
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout08"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/backend" >
+
+
+                        <Button
+                            android:id="@+id/Novel1"
+                            android:layout_width="150dp"
+                            android:layout_height="180dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/novel_image"
+                            android:onClick="onClick">
+
+                        </Button>
+                        <CheckBox
+                            android:id="@+id/favbutton"
+                            style="?android:attr/starStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/button1"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="120dp"
+                            android:onClick="onCheckboxClicked"
+                            />
+                        <CheckBox
+                            android:id="@+id/CheckBox03"
+                            style="?android:attr/starStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginRight="65dp"/>
+
+
+
+
+                        <Button
+                            android:id="@+id/Novel2"
+                            android:layout_width="150dp"
+                            android:layout_height="180dp"
+                            android:layout_gravity="right"
+                            android:layout_marginLeft="16dp"
+                            android:background="@drawable/ww"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/Novel1"
+                            android:layout_toEndOf="@+id/Novel1"
+                            android:layout_marginStart="16dp" />
+
+
+                    </RelativeLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow06"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25" >
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/backend" >
+
+
+                        <Button
+                            android:id="@+id/Novel3"
+                            android:layout_width="150dp"
+                            android:layout_height="180dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/ima"
+                            android:onClick="onClick">
+
+                        </Button>
+                        <CheckBox
+                            android:id="@+id/favbutton1"
+                            style="?android:attr/starStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/button1"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="120dp"
+                            />
+
+
+                        <CheckBox
+                            android:id="@+id/CheckBox04"
+                            style="?android:attr/starStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="65dp"
+                            android:layout_marginTop="1dp" />
+
+                        <Button
+                            android:id="@+id/Novel4"
+                            android:layout_width="150dp"
+                            android:layout_height="180dp"
+                            android:layout_gravity="right"
+                            android:layout_marginLeft="16dp"
+                            android:background="@drawable/i"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/Novel3"
+                            android:layout_toEndOf="@+id/Novel3"
+                            android:layout_marginStart="16dp" />
+                    </RelativeLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow07"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25" >
+
+                <RelativeLayout
+                    android:id="@+id/RelativeLayout11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/backend" >
+                </RelativeLayout>
+                </TableRow>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>

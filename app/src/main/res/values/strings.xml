@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">روايات</string>
+    <string name="help">مساعده</string>
+    <string name="app">عن التطبيق</string>
+    <string name="out">خروج</string>
+    <string name="favorites">المفضله</string>
+    <string name="Paragraph">لا تدعك القراءه الالكترونيه تضيع وقتا,فحيثما كنت وفي اي ظروف يمكنك ان تقتص دقائق لقراءه بعض السطور , لتد انك في خصم انشغالاتك قد انهيت كتابا لم تتوقع انهاءه.
+    روايات تطبيق يضم مجموعه من الروايات المميزة  من مختلف الانواع
+        ويعتمد على قاعده بيانات للروايات.
+    التطبيق لا يحتاج لوجود انترنت.
+    جميع الحقوق محفوظه لجميع المؤلفين والناشرين.</string>
+    <string name="favo">"يمكنك اضافه اي روايه في المفضله من خلال الضغط على رز الموجود اعى غلاف الرواية او من القائمه المنسدلة على يمين الشاشه من داخل الروايه وسيتم ادراجها في المفضله وللوصول الي القائمه المضله عن طريق الضغط على المفضله في القائمه الجانبيه والحذف اي روايه اضغط على زر شكل القلب سوف تظهر رساله تأكيد الحذف وسيتم بعدها الغاء التفضيل.</string>
+    <string name="search">يمكنك البحث عن الروايه التى تريدها داخل كل قسم من اقسام التطبيقز
+للبحث اضغط على زر العدسه وقم بكتابه اسم الروايه او الكاتب المراد البحث عنه او يمكنك فقط كتابه اول حرف من اسم الروايه او الكاتب.</string>
+    <string name="big">يمكنك تكبير وتصغير مباشرة وبذلك بوضع اصبعين عللى الشاشه والتوسيع بينهما والتقريب بينهما للتصغير.</string>
+
+    <string name="Name">اسم الروايه</string>
+    <string name="type">نوع الروايه</string>
+    <string name="namepage">اسم الصفحه</string>
+    <string name="Brief">نبذه مختصره</string>
+    <string-array name="menu" color="#ffffff">
+        <item>المفضلة </item>
+        <item>عن التطبيق </item>
+        <item>المساعدة </item>
+        <item>خروج </item>
+    </string-array>
+    <string name="text">عندما تقرأ استقبل المعاني بقلبك</string>
+    <string name="textA">روايات عربية</string>
+    <string name="textE">روايات واقعية</string>
+    <string name="developer_info">Created by Rawand Doaa</string>
+    <string name="title_activity_help">help</string>
+    <string name="title_activity_favomenu">favomenu</string>
+    <string name="title_activity_appa">appa</string>
+    <string name="title_activity_pdf_renderer_basic_fragment">PdfRendererBasicFragment</string>
+    <string name="app_name_with_index">PdfRendererBasic (%1$d/%2$d)</string>
+    <string name="info">Info</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+</resources>
